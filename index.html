@@ -1,0 +1,94 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles/preloader.css">
+    <link rel="stylesheet" type="text/css" href="styles/header.css">
+    <link rel="stylesheet" type="text/css" href="styles/welcome.css">
+    <link rel="stylesheet" type="text/css" href="styles/typewriter.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+    </style>
+</head>
+
+<body>
+    <!-- new preloader -->
+    <div class="container-fluid preloader" id="preloaderWrapper">
+        <img class="tiaa" src="./img/sandclock.png" alt="logo">
+        <h2>Please Wait...</h2>
+    </div>
+
+
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="skills.html">Skills</a>
+        <a href="contact.html">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+
+
+    <div class="patterns">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+        </style>
+        <svg width="100%" height="100%">
+            <defs>
+                <pattern id="polka-dots" x="0" y="0" width="100" height="100"
+                     patternUnits="userSpaceOnUse">
+              <circle fill="#be9ddf" cx="25" cy="25" r="3"></circle>
+                </pattern>  
+              <!--<style>
+           @import url("https://fonts.googleapis.com/css?  family=Lora:400,400i,700,700i");
+         </style>-->
+            
+            </defs>         
+            <text x="50%" y="60%"  text-anchor="middle">
+                Welcome!
+            </text>
+        </svg>
+        <div class="css-typing">
+            <p>
+                I'm Trisha Sarwade
+            </p>
+            <p>
+                A Second Year Undergraduate Student At IIT Kharagpur
+            </p>
+            <p>
+                From The Department Of Industrial And Systems Engineering
+            </p>
+
+        </div>
+
+
+
+
+
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+        <script>
+            const preloaderWrapperElement =
+                document.getElementById("preloaderWrapper");
+            window.addEventListener("load", () => {
+                preloaderWrapperElement.style.display = "none";
+            });
+        </script>
+
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    background-image: url("../img/background_index.jpg");
+    background-size: cover;
+    height: 100%;
+}
+
+.patterns {
+    height: 40vh;
+    /*width: 40vw;
+    background-color: #69a6d1;*/
+}
+
+svg text {
+    /*font-family: Lora;*/
+    font-family: 'Luxurious Roman', cursive;
+    letter-spacing: 10px;
+    stroke: #0000004f;
+    font-size: 8vw;
+    font-weight: 700;
+    stroke-width: 1.5;
+    animation: textAnimate 4s infinite alternate;
+}
+
+@keyframes textAnimate {
+    0% {
+        stroke-dasharray: 20% 50%;
+        stroke-dashoffset: 20%;
+        fill: rgba(17, 18, 19, 0.877)
+    }
+    100% {
+        stroke-dasharray: 50% 0;
+        stroke-dashoffstet: -20%;
+        fill: rgba(0, 0, 0, 0.61)
+    }
+}
