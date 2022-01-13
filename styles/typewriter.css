@@ -24,9 +24,9 @@
     width: 100%;
     opacity: 0;
     -webkit-animation: type2 2s steps(40, end);
-    animation: type2 2s steps(40, end);
-    -webkit-animation-delay: 2s;
-    animation-delay: 2s;
+    animation: type2 2s steps(300, end);
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
@@ -35,9 +35,9 @@
     width: 100%;
     opacity: 0;
     -webkit-animation: type2 2s steps(40, end);
-    animation: type2 2s steps(40, end);
-    -webkit-animation-delay: 2s;
-    animation-delay: 2s;
+    animation: type2 2s steps(300, end);
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
@@ -46,9 +46,9 @@
     width: 100%;
     opacity: 0;
     -webkit-animation: type2 2s steps(40, end);
-    animation: type2 2s steps(40, end);
-    -webkit-animation-delay: 2s;
-    animation-delay: 2s;
+    animation: type2 2s steps(300, end);
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
@@ -59,9 +59,6 @@
     }
     1% {
         opacity: 1;
-    }
-    99.9% {
-        /*border-right: .15em solid orange;*/
     }
     100% {
         opacity: 1;
@@ -75,9 +72,6 @@
     }
     1% {
         opacity: 1;
-    }
-    99.9% {
-        border-right: .15em solid orange;
     }
     100% {
         opacity: 1;
