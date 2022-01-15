@@ -3,6 +3,12 @@
 <head>
     <link rel="stylesheet" type="text/css" href="styles/header.css">
     <link rel="stylesheet" type="text/css" href="styles/carousal.css">
+    <link rel="stylesheet" type="text/css" href="styles/webcard.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+    </style>
 </head>
 
 <body>
@@ -15,6 +21,19 @@
             <i class="fa fa-bars"></i>
         </a>
     </div>
+
+    <div class="card">
+        <img src="img/background_index.jpg" alt="John" style="width:100%">
+        <h1>John Doe</h1>
+        <p class="title">CEO & Founder, Example</p>
+        <p>Harvard University</p>
+        <a href="#"><i class="fa fa-dribbble"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <p><button>Contact</button></p>
+    </div>
+
     <div class="pic-ctn">
         <img src="https://picsum.photos/200/300?t=1" alt="" class="pic">
         <img src="https://picsum.photos/200/300?t=2" alt="" class="pic">
@@ -23,6 +42,18 @@
         <img src="https://picsum.photos/200/300?t=5" alt="" class="pic">
     </div>
 
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
 </body>
 
 </html>
