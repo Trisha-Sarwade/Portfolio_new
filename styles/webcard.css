@@ -1,7 +1,14 @@
-body {
-    background-image: url("../img/webcard_back.jpg");
+/*body {
+    background-image: url("../img/webcard-back2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+}*/
+
+html,
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(94, 37, 37);
 }
 
 .card {
@@ -14,7 +21,7 @@ body {
 
 .title {
     color: grey;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 button {
@@ -43,6 +50,9 @@ a:hover {
 
 .card-back {
     padding: 1%;
+    background-image: url("../img/webcard-back3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 @media screen and (max-width: 1000px) {
@@ -86,5 +96,8 @@ a:hover {
     }
     .card-back {
         padding: 1%;
+        background-image: url("../img/webcard-back3.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
