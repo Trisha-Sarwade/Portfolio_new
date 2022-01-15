@@ -10,10 +10,19 @@
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 2vw;
-    line-height: 1.4em;
-    letter-spacing: 0.15rem;
+    line-height: 1.6em;
+}
+
+img {
+    width: 65%;
 }
 
 .middle {
     margin: 3%;
+}
+
+@media screen and (max-width: 1000px) {
+    img {
+        width: 70%;
+    }
 }
