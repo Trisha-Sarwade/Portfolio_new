@@ -1,7 +1,23 @@
+.all {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5%;
+}
+
+.middle {
+    margin: 0%;
+    width: 50%;
+}
+
 .container {
     position: relative;
     text-align: center;
-    color: rgb(245, 235, 235);
+    color: rgb(255, 255, 255);
+    width: 110%;
+    padding: 7%;
 }
 
 .centered {
@@ -9,16 +25,12 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 2vw;
-    line-height: 1.6em;
+    font-size: 1.8vw;
+    line-height: 1.3em;
 }
 
 img {
-    width: 65%;
-}
-
-.middle {
-    margin: 3%;
+    width: 97%;
 }
 
 @media screen and (max-width: 1000px) {

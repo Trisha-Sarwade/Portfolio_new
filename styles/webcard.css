@@ -1,31 +1,41 @@
-/*body {
-    background-image: url("../img/webcard-back2.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-}*/
-
 html,
 body {
     margin: 0%;
     padding: 0%;
-    background-color: rgb(94, 37, 37);
+    /*background-color: rgb(94, 37, 37);*/
+    background-image: url("../img/webcard-back4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
+    max-width: 235px;
     margin: auto;
     text-align: center;
     background-color: whitesmoke;
 }
 
+h1 {
+    font-size: 1.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+    font-size: 1em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 .title {
-    color: grey;
+    color: rgb(95, 95, 95);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
+    margin: 1%;
 }
 
 button {
     border: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     outline: 0;
     display: inline-block;
     padding: 8px;
@@ -34,7 +44,7 @@ button {
     text-align: center;
     cursor: pointer;
     width: 100%;
-    font-size: 18px;
+    font-size: 1.2em;
 }
 
 a {
@@ -49,8 +59,8 @@ a:hover {
 }
 
 .card-back {
-    padding: 1%;
-    background-image: url("../img/webcard-back3.jpg");
+    padding-top: 1%;
+    /*background-image: url("../img/webcard-back4.jpg");*/
     background-repeat: no-repeat;
     background-size: cover;
 }
