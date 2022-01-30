@@ -68,26 +68,27 @@ a:hover {
 @media screen and (max-width: 1000px) {
     .card {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        max-width: 190px;
+        max-width: 40vw;
         margin: auto;
         text-align: center;
         background-color: whitesmoke;
     }
     .title {
         color: grey;
-        font-size: 15px;
+        font-size: 3vw;
     }
     h1 {
-        font-size: 20px;
+        font-size: 5vw;
     }
     p {
-        font-size: 15px;
+        font-size: 3vw;
+        font-weight: bold;
     }
     button {
         border: none;
         outline: 0;
         display: inline-block;
-        padding: 8px;
+        padding: 3px;
         color: white;
         background-color: #000;
         text-align: center;
@@ -106,8 +107,8 @@ a:hover {
     }
     .card-back {
         padding: 1%;
-        background-image: url("../img/webcard-back3.jpg");
+        /*background-image: url("../img/webcard-back3.jpg");
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: cover;*/
     }
 }
