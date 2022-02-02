@@ -66,6 +66,15 @@ a:hover {
 }
 
 @media screen and (max-width: 1000px) {
+    html,
+    body {
+        margin: 0%;
+        padding: 0%;
+        /*background-color: rgb(94, 37, 37);*/
+        background-image: url("../img/webcard-back4.jpg");
+        background-repeat: no-repeat;
+        /*background-size: cover;*/
+    }
     .card {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         max-width: 40vw;
